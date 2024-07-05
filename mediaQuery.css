@@ -1,0 +1,90 @@
+@media (min-width: 480px) and (max-width: 767px) {
+    .list-container{
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    .menu-box{
+        margin-right: 25px;
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .banner img{
+        margin-top: 30px;
+    }
+    .all-logos{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .all-logos img{
+      margin-bottom: 25px;
+      width: 90px;
+    }
+    .services-head p{
+      margin-right: 30px;
+    }
+    .hire-us-container{
+      width: 100%;
+  }
+  .hire-us-container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+    .container {
+        max-width: 540px;
+      }
+    .row {
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  
+  @media (min-width: 768px)  and (max-width: 991px){
+    .container {
+      max-width: 720px;
+    }
+    .cart-container{
+      width: 50%;
+    }
+    .footer-item{
+      margin-left: 1px;
+    }
+  }
+  
+  @media (min-width: 992px)  and (max-width: 1199px){
+    .container {
+      max-width: 960px;
+    }
+    .footer-item{
+      margin-top: 25px;
+      margin-left: 1px;
+    }
+  }
+  
+  @media (min-width: 1200px)  and (max-width: 1399px){
+    .container {
+      max-width: 1140px;
+    }
+    .col-2{
+      width: 16.666667%
+    }
+    .col-3{
+      max-width: 25%;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+    .col-2{
+      width: 16.666667%
+    }
+    .col-3{
+      max-width: 25%;
+    }
+  }
